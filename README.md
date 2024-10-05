@@ -33,11 +33,11 @@ In this project, jQuery is employed to streamline JavaScript operations, particu
    
 2. **Event Handling**
    The project listens for a button click event to trigger the fetching of random character data.
-    The $("button").on("click", function() { ... }) method is used to attach a click event handler to the button.
+   The $("button").on("click", function() { ... }) method is used to attach a click event handler to the button.
 
 3. **AJAX Requests**
    jQuery's $.get() method simplifies the process of making HTTP GET requests.
-    This method is utilized to retrieve data from the Star Wars API based on a randomly generated character ID.
+   This method is utilized to retrieve data from the Star Wars API based on a randomly generated character ID.
    
 ## Getting Started
 1. Clone the repository:
