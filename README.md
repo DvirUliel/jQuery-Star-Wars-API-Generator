@@ -20,7 +20,25 @@ The Star Wars API Generator is a simple web application that allows users to fet
   - Homeworld
   - Wiki link
 - Responsive design with a visually appealing background and layout.
+## jQuery Usage
+In this project, jQuery is employed to streamline JavaScript operations, particularly for DOM manipulation and AJAX requests:
 
+1. **DOM Ready Event**: 
+   The `$(document).ready()` function ensures that the code runs only after the DOM is fully loaded. This prevents any attempt to access HTML elements before they are available.
+
+   ```javascript
+   $(document).ready(function(){
+       // Code here runs after the document is ready
+   });
+   
+2. **Event Handling**
+   The project listens for a button click event to trigger the fetching of random character data.
+    The $("button").on("click", function() { ... }) method is used to attach a click event handler to the button.
+
+3. **AJAX Requests**
+   jQuery's $.get() method simplifies the process of making HTTP GET requests.
+    This method is utilized to retrieve data from the Star Wars API based on a randomly generated character ID.
+   
 ## Getting Started
 1. Clone the repository:
    ```bash
