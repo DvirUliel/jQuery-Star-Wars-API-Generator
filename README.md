@@ -1,7 +1,5 @@
 # Star Wars API Generator
 
-![Uploading project_screenshot.png…]()
-
 ## Description
 The Star Wars API Generator is a simple web application that allows users to fetch and display random character information from the Star Wars API. Using jQuery, the app dynamically updates the page with character data, including name, height, mass, gender, species, homeworld, and a link to the corresponding wiki page.
 
