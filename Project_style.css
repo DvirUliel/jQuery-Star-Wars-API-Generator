@@ -1,0 +1,60 @@
+body{
+    margin: 20px auto;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/originals/60/e3/2d/60e32d9d938618e4bbd282677a437f92.jpg");
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% opacity */
+    color: rgb(35, 62, 137);
+    padding: 50px;
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Optional shadow */
+    line-height: 1.5;
+    align-items: center;
+}
+.box h2{
+    text-align: center;
+    width: 100%;
+    color: darkblue;
+    font-size: 28px;
+}
+
+.box-text{
+    width: 70%; /* The width of the text box */
+    box-sizing:border-box;
+    font-size: 20px;
+}
+.box-text h3{
+    margin: 0;
+    width: 100%;
+    text-decoration: underline;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.box-image{
+    display: flex;
+    width: 30%; /* The width of the image box */
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    box-sizing:border-box;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+}
+p{
+    margin: 0;
+}
+a{
+    color: rgb(35, 62, 137);;
+}
