@@ -42,5 +42,5 @@ In this project, jQuery is employed to streamline JavaScript operations, particu
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/StarWars-API-Generator.git
+   git clone https://github.com/DvirUliel/jQuery-Star-Wars-API-Generator.git
 2. Open jQuery_project.html in your web browser.
